@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.navbar-brand{ 
+    margin: -3vw 0vw;
+}
+.navbar-brand>img{
+    width: 26vw;
+    height: 10vw;
+}
+.navbar{
+    background-color: #ffffff;
+    border-bottom: 1vw double #373964;
+    padding: 3vw;
+    position: fixed;
+    width: 100vw;
+    height: 17vw;
+    z-index: 2;
+    filter: drop-shadow(0 1vw 3vw rgba(20, 4, 43, 0.409));
+}
+
+#menu{
+    margin: 1vw 48vw;
+}
+#search{
+    margin: 1vw 36vw;
+    scale: 0.87;
+}
+input{
+    height: 10vw;
+    width: 90vw;
+}
+.navbar-toggler{
+    position: fixed;
+    background-color: transparent;
+    border: none;
+}
+
+.navbar-collapse{
+    margin: 13.9vw -3vw;
+    background-color: #ffffff;
+    color: white;
+    width: 100vw;
+    border: 0.2vw solid black;
+}
+#navbarSupportedContent2{
+    color: black;
+    background-color: transparent;
+}
+.nav-link{color: black;}
+.nav-item{margin-bottom: 3vw;}
+
+#seperation{
+    background-color: aliceblue;
+    height: 17vw;
+}
+
+#ads{
+    transition: 1s;
+    width: 100vw;
+    height: 50vw;
+    background-image: url(../images/1-0.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#ads>button{ 
+    margin: 37vw 37vw;
+    width: 26vw;
+    height: 9.6vw;
+    border: 1vw solid;
+    position: absolute;
+    background-color: #cfd5ea57;
+    color: aliceblue;
+    font-size: 3vw;
+}
+
+main{
+    background-color: aliceblue;
+    padding: 3vw;
+    color: red;
+}
+main>h1{
+    font-size: 6vw;
+    text-align: center;
+    color: black;
+    margin-bottom: 6vw;
+}
+main>p{
+    color: #816f6f;
+    margin: 6vw 7vw;
+    font-size: 3.69vw;
+}
+main>h2{
+    color: #3e5232;
+    font-size: 4vw;
+    text-align: center;
+}
+
+
+
+footer{
+    position: absolute;
+    background-color: #08273b;
+    width: 100vw;
+    height: 48vw;
+    font-size: 2vw;
+    color: white;
+    padding: 10vw 0;
+}
+footer>h1{
+    text-align: center;
+    font-size: 4vw;
+}
+footer>p{
+    text-align: center;
+    font-size: 3vw;
+}
+
